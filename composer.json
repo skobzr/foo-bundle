@@ -1,0 +1,30 @@
+{
+  "name": "skobzr/foo-bundle",
+  "version": "0.1.0",
+  "type": "symfony-bundle",
+  "description": "Test command bundle foo",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "skobzr\\FooBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+  },
+  "scripts": {
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false,
+      "require": "5.0.*"
+    }
+  }
+}

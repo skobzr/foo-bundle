@@ -1,0 +1,6 @@
+services:
+  _defaults:
+    autowire: true
+  skobzr\FooBundle\Command\:
+    resource: '../src/Command/*'
+    tags: [ 'console.command' ]
